@@ -1,0 +1,71 @@
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  bold:
+    family: CaskaydiaCove Nerd Font
+    style: Bold
+  italic:
+    family: Sarasa Term J
+    style: Italic
+
+  bold_italic:
+    family: JetbrainsMono NF
+    style: Bold Italic
+
+  size: 9
+
+  offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: beam
+
+window:
+  opacity: 0.8
+  dimensions:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  # decorations: none 
+  decorations: full
+  title: Breaking_Lead's Alacritty
+
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:" ()[]{}<>'
+  save_to_clipboard: true
+colors:
+  name: Codeschool (light)
+  author: Chris Kempson
+  primary:
+    background: "#b5d8f6"
+    foreground: "#2a343a"
+  cursor:
+    text: "#b5d8f6"
+    cursor: "#2a343a"
+  normal:
+    black: "#232c31"
+    red: "#2a5491"
+    green: "#237986"
+    yellow: "#a03b1e"
+    blue: "#484d79"
+    magenta: "#c59820"
+    cyan: "#b02f30"
+    white: "#9ea7a6"
+  bright:
+    black: "#3f4944"
+    red: "#2a5491"
+    green: "#237986"
+    yellow: "#a03b1e"
+    blue: "#484d79"
+    magenta: "#c59820"
+    cyan: "#b02f30"
+    white: "#b5d8f6"
+theme: Codeschool.light

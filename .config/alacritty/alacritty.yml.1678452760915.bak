@@ -1,0 +1,70 @@
+font:
+  normal:
+    family: Sarasa Term SC
+    style: Regular
+
+  bold:
+    family: Sarasa Term SC
+    style: Bold
+  italic:
+    family: Sarasa Term SC
+    style: Italic
+
+  bold_italic:
+    family: Sarasa Term SC
+    style: BoldItalic
+  size: 10
+
+  offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: beam
+
+window:
+  opacity: 0.8
+  dimensions:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  # decorations: none 
+  decorations: full
+  title: Terminal
+
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:" ()[]{}<>'
+  save_to_clipboard: true
+colors:
+  name: Erebus
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#757575"
+    red: "#ff5f5f"
+    green: "#de8a36"
+    yellow: "#d78787"
+    blue: "#af5fd7"
+    magenta: "#ff87d7"
+    cyan: "#dea3e5"
+    white: "#b8b8b8"
+  bright:
+    black: "#b8b8b8"
+    red: "#d78787"
+    green: "#ff9f6f"
+    yellow: "#ff5f5f"
+    blue: "#dea3e5"
+    magenta: "#d7afaf"
+    cyan: "#af5fd7"
+    white: "#757575"
+theme: Erebus

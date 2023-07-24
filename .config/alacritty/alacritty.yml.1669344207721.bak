@@ -1,0 +1,70 @@
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+  bold:
+    family: JetBrainsMono Nerd Font Mono
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font Mono
+    style: BoldItalic
+  size: 10
+
+  offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: beam
+
+window:
+  opacity: 0.8
+  dimensions:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  # decorations: none 
+  decorations: full
+  title: Terminal
+
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:" ()[]{}<>'
+  save_to_clipboard: true
+colors:
+  name: Colorful Colors
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#151515"
+    red: "#ff8eaf"
+    green: "#a6e25f"
+    yellow: "#f8e578"
+    blue: "#a6e2f0"
+    magenta: "#e85b92"
+    cyan: "#5f868f"
+    white: "#d5f1f2"
+  bright:
+    black: "#696969"
+    red: "#ed4c7a"
+    green: "#a6e179"
+    yellow: "#ffdf6b"
+    blue: "#79d2ff"
+    magenta: "#bb5d79"
+    cyan: "#87a8af"
+    white: "#e2f1f6"
+theme: Colorfulcolors

@@ -1,0 +1,76 @@
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  bold:
+    family: CaskaydiaCove Nerd Font
+    style: Bold
+  italic:
+    family: Sarasa Term J
+    style: Italic
+
+  bold_italic:
+    family: JetbrainsMono NF
+    style: Bold Italic
+
+  size: 9
+
+  offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: beam
+
+window:
+  opacity: 0.8
+  dimensions:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  # decorations: none 
+  decorations: full
+  title: Breaking_Lead's Alacritty
+
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:" ()[]{}<>'
+  save_to_clipboard: true
+colors:
+  cursor:
+    text: '#fefff2'
+    cursor: '#f0cc09'
+
+  selection:
+    text: '#b5b5b5'
+    background: '#18354f'
+
+  primary:
+    background: '#132738'
+    foreground: '#ffffff'
+
+  normal:
+    black: '#000000'
+    red: '#ff0000'
+    green: '#38de21'
+    yellow: '#ffe50a'
+    blue: '#1460d2'
+    magenta: '#ff005d'
+    cyan: '#00bbbb'
+    white: '#bbbbbb'
+
+  bright:
+    black: '#555555'
+    red: '#f40e17'
+    green: '#3bd01d'
+    yellow: '#edc809'
+    blue: '#5555ff'
+    magenta: '#ff55ff'
+    cyan: '#6ae3fa'
+    white: '#ffffff'
+theme: Cobalt-2

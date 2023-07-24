@@ -1,0 +1,68 @@
+font:
+  normal:
+    family: Sarasa Term SC Nerd
+    style: Regular
+  bold:
+    family: Sarasa Term SC Nerd
+    style: Bold
+  italic:
+    family: Sarasa Term SC Nerd
+    style: Italic
+  bold_italic:
+    family: Sarasa Term SC Nerd
+    style: BoldItalic
+  size: 10
+
+  offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: beam
+
+window:
+  opacity: 0.8
+  dimensions:
+    x: 0
+    y: 0
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  # decorations: none 
+  decorations: full
+  title: Terminal
+
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:" ()[]{}<>'
+  save_to_clipboard: true
+colors:
+  name: Belge
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#252525"
+    red: "#ef6769"
+    green: "#a6e22e"
+    yellow: "#fd971f"
+    blue: "#6495ed"
+    magenta: "#deb887"
+    cyan: "#b0c4de"
+    white: "#dbdcdc"
+  bright:
+    black: "#454545"
+    red: "#fc7ca5"
+    green: "#b6e354"
+    yellow: "#fd971f"
+    blue: "#87ceeb"
+    magenta: "#996600"
+    cyan: "#87ceeb"
+    white: "#fdfdfd"
+theme: Belge
